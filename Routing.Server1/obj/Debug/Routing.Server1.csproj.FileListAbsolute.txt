@@ -1,0 +1,7 @@
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\Routing.Server1\bin\Debug\Routing.Server1.exe.config
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\Routing.Server1\bin\Debug\Routing.Server1.exe
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\Routing.Server1\bin\Debug\Routing.Server1.pdb
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\Routing.Server1\bin\Debug\RabbitMQ.Client.dll
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\Routing.Server1\bin\Debug\RabbitMQ.Client.xml
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\Routing.Server1\obj\Debug\Routing.Server1.exe
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\Routing.Server1\obj\Debug\Routing.Server1.pdb

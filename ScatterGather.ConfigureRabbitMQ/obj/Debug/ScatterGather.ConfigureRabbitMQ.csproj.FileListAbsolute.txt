@@ -1,0 +1,7 @@
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\ScatterGather.ConfigureRabbitMQ\bin\Debug\ScatterGather.ConfigureRabbitMQ.exe.config
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\ScatterGather.ConfigureRabbitMQ\bin\Debug\ScatterGather.ConfigureRabbitMQ.exe
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\ScatterGather.ConfigureRabbitMQ\bin\Debug\ScatterGather.ConfigureRabbitMQ.pdb
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\ScatterGather.ConfigureRabbitMQ\bin\Debug\RabbitMQ.Client.dll
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\ScatterGather.ConfigureRabbitMQ\bin\Debug\RabbitMQ.Client.xml
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\ScatterGather.ConfigureRabbitMQ\obj\Debug\ScatterGather.ConfigureRabbitMQ.exe
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\ScatterGather.ConfigureRabbitMQ\obj\Debug\ScatterGather.ConfigureRabbitMQ.pdb

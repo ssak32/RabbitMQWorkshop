@@ -1,0 +1,7 @@
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\Topic.ConfigureRabbitMQ\bin\Debug\Topic.ConfigureRabbitMQ.exe.config
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\Topic.ConfigureRabbitMQ\bin\Debug\Topic.ConfigureRabbitMQ.exe
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\Topic.ConfigureRabbitMQ\bin\Debug\Topic.ConfigureRabbitMQ.pdb
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\Topic.ConfigureRabbitMQ\bin\Debug\RabbitMQ.Client.dll
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\Topic.ConfigureRabbitMQ\bin\Debug\RabbitMQ.Client.xml
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\Topic.ConfigureRabbitMQ\obj\Debug\Topic.ConfigureRabbitMQ.exe
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\Topic.ConfigureRabbitMQ\obj\Debug\Topic.ConfigureRabbitMQ.pdb

@@ -1,0 +1,432 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25402.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigureRabbitMQ", "ConfigureRabbitMQ\ConfigureRabbitMQ.csproj", "{B6184EA4-11D6-4A09-9848-4B284FF71011}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 RabbitMQConfigurator", "01 RabbitMQConfigurator", "{606C1D8D-657D-4B3E-88D2-DA4314E06CB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 One Way Messaging", "02 One Way Messaging", "{CD0F0702-A5FA-4A74-A87F-30156D74B70A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneWayMessaging.Client", "OneWayMessaging.Client\OneWayMessaging.Client.csproj", "{F86FDAA5-98A7-426A-85D1-DF82505393F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneWayMessaging.Server", "OneWayMessaging.Server\OneWayMessaging.Server.csproj", "{AE07ED4B-DFB1-4537-85CC-46A3D41C2B42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneWayMessaging.ConfigureRabbitMQ", "OneWayMessaging.ConfigureRabbitMQ\OneWayMessaging.ConfigureRabbitMQ.csproj", "{A5458C00-F6B8-4503-B8C8-1125C882947F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Worker Queues", "03 Worker Queues", "{2EA624A5-2D35-4549-91B6-4D4D60BB474F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Publish Subscribe", "04 Publish Subscribe", "{05ADFEF9-52A4-4A2E-B8FE-413D5D86BF68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerQueue.Client", "WorkerQueue.Client\WorkerQueue.Client.csproj", "{23FCEFD7-6078-40AF-B726-12B2A5053C41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerQueue.Server1", "WorkerQueue.Server1\WorkerQueue.Server1.csproj", "{65E46DA8-D4C5-4766-B725-F6C6932785EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerQueue.Server2", "WorkerQueue.Server2\WorkerQueue.Server2.csproj", "{64FF0F89-3ABD-4E7C-9C0A-51F6AD341DFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerQueue.ConfigureRabbitMQ", "WorkerQueue.ConfigureRabbitMQ\WorkerQueue.ConfigureRabbitMQ.csproj", "{302C8BD3-9793-4B18-9954-E63F12C1FCBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubSub.Client", "PubSub.Client\PubSub.Client.csproj", "{9CBEB569-D429-499F-A387-9F76477BDABF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubSub.Server1", "PubSub.Server1\PubSub.Server1.csproj", "{F7EEB1D4-7190-4F77-A224-F92452FE75A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubSub.Server2", "PubSub.Server2\PubSub.Server2.csproj", "{A7712EFE-D201-47E3-849C-3B8B5DC8E5EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubSub.ConfigureRabbitMQ", "PubSub.ConfigureRabbitMQ\PubSub.ConfigureRabbitMQ.csproj", "{A132874E-E386-4181-A37D-25B7F331D191}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 Remote Procedure Call", "05 Remote Procedure Call", "{47B3BB1C-3A20-4F10-B68C-38ADD7B09CFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPC.ConfigureRabbitMQ", "RPC.ConfigureRabbitMQ\RPC.ConfigureRabbitMQ.csproj", "{D831EFE5-ED31-4170-B52D-88EA73D734AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPC.Client", "RPC.Client\RPC.Client.csproj", "{6271B1B7-1D1F-40C4-9973-F53F648C7077}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPC.Server", "RPC.Server\RPC.Server.csproj", "{9DE19D34-F0CB-4A51-A011-4996DA907F08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 Routing", "06 Routing", "{F861D4CA-F623-4C7D-A1EE-F9406CE778DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Routing.ConfigureRabbitMQ", "Routing.ConfigureRabbitMQ\Routing.ConfigureRabbitMQ.csproj", "{13136405-7CED-4578-ABBA-8BF700D26D4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Routing.Client", "Routing.Client\Routing.Client.csproj", "{5130C49A-8566-46D8-87AE-50ED7CE5C889}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Routing.Server1", "Routing.Server1\Routing.Server1.csproj", "{BC4ACB2A-23BC-4136-92B8-F8B9007C12A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Routing.Server2", "Routing.Server2\Routing.Server2.csproj", "{17E988A5-B3CA-4076-9A5D-4CEC45F7205B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 Topic", "07 Topic", "{B5398770-BCCA-4BC1-8152-D450864DB9E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topic.ConfigureRabbitMQ", "Topic.ConfigureRabbitMQ\Topic.ConfigureRabbitMQ.csproj", "{8A8D15C8-43F3-4121-90C7-DCDBEDC032EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topic.Server1", "Topic.Server1\Topic.Server1.csproj", "{35912F7A-C05C-40EF-9F12-CED2A2160AE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topic.Server2", "Topic.Server2\Topic.Server2.csproj", "{494C4441-6E2C-45A7-AE6D-E064312E8D36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topic.Server3", "Topic.Server3\Topic.Server3.csproj", "{B7B7B65F-A670-4D6D-85E3-7E249B55C7F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topic.WinClient", "Topic.WinClient\Topic.WinClient.csproj", "{B8E7D887-1B6B-4598-9776-A118A28247C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08 Headers", "08 Headers", "{3320ABA3-2F1E-4F68-A1F0-C827E7F331EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09 Scatter Gather", "09 Scatter Gather", "{92860A43-ACF0-4355-9F37-E92DCCF9CD69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Headers.ConfigureRabbitMQ", "Headers.ConfigureRabbitMQ\Headers.ConfigureRabbitMQ.csproj", "{036C35F3-123F-4678-9AC4-86718D024D05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Headers.WinClient", "Headers.WinClient\Headers.WinClient.csproj", "{DF547806-DF21-4380-A6B4-9963B2CAA2A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Headers.Server1", "Headers.Server1\Headers.Server1.csproj", "{F47B2B21-6834-4560-8271-95A131090615}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Headers.Server2", "Headers.Server2\Headers.Server2.csproj", "{688451AC-B679-40B3-A770-50EEEFD67B3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Headers.Server3", "Headers.Server3\Headers.Server3.csproj", "{D55E5FBB-71EC-4404-B46B-C867F3925060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Headers.Server4", "Headers.Server4\Headers.Server4.csproj", "{C80FDE52-3CD5-48D0-B418-C6FC2D7A34ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScatterGather.Client", "ScatterGather.Client\ScatterGather.Client.csproj", "{5A11D564-AD5E-459E-AC91-273F8EDA6AF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScatterGather.ConfigureRabbitMQ", "ScatterGather.ConfigureRabbitMQ\ScatterGather.ConfigureRabbitMQ.csproj", "{A79FBF75-C593-48F6-A379-5BBCB8FB1DB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScatterGather.Server1", "ScatterGather.Server1\ScatterGather.Server1.csproj", "{31DCF2B0-2984-48C9-B693-21D3089AE774}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScatterGather.Server2", "ScatterGather.Server2\ScatterGather.Server2.csproj", "{DBA86385-2BBD-4451-BE4F-E52DAE86B270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScatterGather.Server3", "ScatterGather.Server3\ScatterGather.Server3.csproj", "{AA5CB5CC-1733-44D2-97AD-3341FA09EC0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Overview", "Overview", "{E39BD6ED-4A07-45EC-828B-803A30AF9A2E}"
+	ProjectSection(SolutionItems) = preProject
+		RabbitMQ.pptx = RabbitMQ.pptx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6184EA4-11D6-4A09-9848-4B284FF71011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6184EA4-11D6-4A09-9848-4B284FF71011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6184EA4-11D6-4A09-9848-4B284FF71011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6184EA4-11D6-4A09-9848-4B284FF71011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F86FDAA5-98A7-426A-85D1-DF82505393F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F86FDAA5-98A7-426A-85D1-DF82505393F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F86FDAA5-98A7-426A-85D1-DF82505393F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F86FDAA5-98A7-426A-85D1-DF82505393F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE07ED4B-DFB1-4537-85CC-46A3D41C2B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE07ED4B-DFB1-4537-85CC-46A3D41C2B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE07ED4B-DFB1-4537-85CC-46A3D41C2B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE07ED4B-DFB1-4537-85CC-46A3D41C2B42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5458C00-F6B8-4503-B8C8-1125C882947F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5458C00-F6B8-4503-B8C8-1125C882947F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5458C00-F6B8-4503-B8C8-1125C882947F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5458C00-F6B8-4503-B8C8-1125C882947F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23FCEFD7-6078-40AF-B726-12B2A5053C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23FCEFD7-6078-40AF-B726-12B2A5053C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23FCEFD7-6078-40AF-B726-12B2A5053C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23FCEFD7-6078-40AF-B726-12B2A5053C41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65E46DA8-D4C5-4766-B725-F6C6932785EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E46DA8-D4C5-4766-B725-F6C6932785EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E46DA8-D4C5-4766-B725-F6C6932785EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E46DA8-D4C5-4766-B725-F6C6932785EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64FF0F89-3ABD-4E7C-9C0A-51F6AD341DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64FF0F89-3ABD-4E7C-9C0A-51F6AD341DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64FF0F89-3ABD-4E7C-9C0A-51F6AD341DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64FF0F89-3ABD-4E7C-9C0A-51F6AD341DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{302C8BD3-9793-4B18-9954-E63F12C1FCBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{302C8BD3-9793-4B18-9954-E63F12C1FCBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{302C8BD3-9793-4B18-9954-E63F12C1FCBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{302C8BD3-9793-4B18-9954-E63F12C1FCBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CBEB569-D429-499F-A387-9F76477BDABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CBEB569-D429-499F-A387-9F76477BDABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CBEB569-D429-499F-A387-9F76477BDABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CBEB569-D429-499F-A387-9F76477BDABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7EEB1D4-7190-4F77-A224-F92452FE75A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7EEB1D4-7190-4F77-A224-F92452FE75A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7EEB1D4-7190-4F77-A224-F92452FE75A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7EEB1D4-7190-4F77-A224-F92452FE75A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7712EFE-D201-47E3-849C-3B8B5DC8E5EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7712EFE-D201-47E3-849C-3B8B5DC8E5EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7712EFE-D201-47E3-849C-3B8B5DC8E5EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7712EFE-D201-47E3-849C-3B8B5DC8E5EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A132874E-E386-4181-A37D-25B7F331D191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A132874E-E386-4181-A37D-25B7F331D191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A132874E-E386-4181-A37D-25B7F331D191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A132874E-E386-4181-A37D-25B7F331D191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D831EFE5-ED31-4170-B52D-88EA73D734AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D831EFE5-ED31-4170-B52D-88EA73D734AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D831EFE5-ED31-4170-B52D-88EA73D734AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D831EFE5-ED31-4170-B52D-88EA73D734AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6271B1B7-1D1F-40C4-9973-F53F648C7077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6271B1B7-1D1F-40C4-9973-F53F648C7077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6271B1B7-1D1F-40C4-9973-F53F648C7077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6271B1B7-1D1F-40C4-9973-F53F648C7077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DE19D34-F0CB-4A51-A011-4996DA907F08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE19D34-F0CB-4A51-A011-4996DA907F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE19D34-F0CB-4A51-A011-4996DA907F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE19D34-F0CB-4A51-A011-4996DA907F08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13136405-7CED-4578-ABBA-8BF700D26D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13136405-7CED-4578-ABBA-8BF700D26D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13136405-7CED-4578-ABBA-8BF700D26D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13136405-7CED-4578-ABBA-8BF700D26D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5130C49A-8566-46D8-87AE-50ED7CE5C889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5130C49A-8566-46D8-87AE-50ED7CE5C889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5130C49A-8566-46D8-87AE-50ED7CE5C889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5130C49A-8566-46D8-87AE-50ED7CE5C889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC4ACB2A-23BC-4136-92B8-F8B9007C12A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC4ACB2A-23BC-4136-92B8-F8B9007C12A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC4ACB2A-23BC-4136-92B8-F8B9007C12A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC4ACB2A-23BC-4136-92B8-F8B9007C12A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17E988A5-B3CA-4076-9A5D-4CEC45F7205B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E988A5-B3CA-4076-9A5D-4CEC45F7205B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E988A5-B3CA-4076-9A5D-4CEC45F7205B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E988A5-B3CA-4076-9A5D-4CEC45F7205B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A8D15C8-43F3-4121-90C7-DCDBEDC032EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A8D15C8-43F3-4121-90C7-DCDBEDC032EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A8D15C8-43F3-4121-90C7-DCDBEDC032EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A8D15C8-43F3-4121-90C7-DCDBEDC032EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35912F7A-C05C-40EF-9F12-CED2A2160AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35912F7A-C05C-40EF-9F12-CED2A2160AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35912F7A-C05C-40EF-9F12-CED2A2160AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35912F7A-C05C-40EF-9F12-CED2A2160AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{494C4441-6E2C-45A7-AE6D-E064312E8D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{494C4441-6E2C-45A7-AE6D-E064312E8D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{494C4441-6E2C-45A7-AE6D-E064312E8D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{494C4441-6E2C-45A7-AE6D-E064312E8D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7B7B65F-A670-4D6D-85E3-7E249B55C7F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B7B65F-A670-4D6D-85E3-7E249B55C7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7B7B65F-A670-4D6D-85E3-7E249B55C7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B7B65F-A670-4D6D-85E3-7E249B55C7F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8E7D887-1B6B-4598-9776-A118A28247C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8E7D887-1B6B-4598-9776-A118A28247C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8E7D887-1B6B-4598-9776-A118A28247C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8E7D887-1B6B-4598-9776-A118A28247C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{036C35F3-123F-4678-9AC4-86718D024D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{036C35F3-123F-4678-9AC4-86718D024D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{036C35F3-123F-4678-9AC4-86718D024D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{036C35F3-123F-4678-9AC4-86718D024D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF547806-DF21-4380-A6B4-9963B2CAA2A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF547806-DF21-4380-A6B4-9963B2CAA2A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF547806-DF21-4380-A6B4-9963B2CAA2A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF547806-DF21-4380-A6B4-9963B2CAA2A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47B2B21-6834-4560-8271-95A131090615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47B2B21-6834-4560-8271-95A131090615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47B2B21-6834-4560-8271-95A131090615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47B2B21-6834-4560-8271-95A131090615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{688451AC-B679-40B3-A770-50EEEFD67B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688451AC-B679-40B3-A770-50EEEFD67B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688451AC-B679-40B3-A770-50EEEFD67B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688451AC-B679-40B3-A770-50EEEFD67B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D55E5FBB-71EC-4404-B46B-C867F3925060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D55E5FBB-71EC-4404-B46B-C867F3925060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D55E5FBB-71EC-4404-B46B-C867F3925060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D55E5FBB-71EC-4404-B46B-C867F3925060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C80FDE52-3CD5-48D0-B418-C6FC2D7A34ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C80FDE52-3CD5-48D0-B418-C6FC2D7A34ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C80FDE52-3CD5-48D0-B418-C6FC2D7A34ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C80FDE52-3CD5-48D0-B418-C6FC2D7A34ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A11D564-AD5E-459E-AC91-273F8EDA6AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A11D564-AD5E-459E-AC91-273F8EDA6AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A11D564-AD5E-459E-AC91-273F8EDA6AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A11D564-AD5E-459E-AC91-273F8EDA6AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A79FBF75-C593-48F6-A379-5BBCB8FB1DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A79FBF75-C593-48F6-A379-5BBCB8FB1DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A79FBF75-C593-48F6-A379-5BBCB8FB1DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A79FBF75-C593-48F6-A379-5BBCB8FB1DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31DCF2B0-2984-48C9-B693-21D3089AE774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31DCF2B0-2984-48C9-B693-21D3089AE774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31DCF2B0-2984-48C9-B693-21D3089AE774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31DCF2B0-2984-48C9-B693-21D3089AE774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA86385-2BBD-4451-BE4F-E52DAE86B270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA86385-2BBD-4451-BE4F-E52DAE86B270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA86385-2BBD-4451-BE4F-E52DAE86B270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA86385-2BBD-4451-BE4F-E52DAE86B270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA5CB5CC-1733-44D2-97AD-3341FA09EC0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA5CB5CC-1733-44D2-97AD-3341FA09EC0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA5CB5CC-1733-44D2-97AD-3341FA09EC0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA5CB5CC-1733-44D2-97AD-3341FA09EC0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6184EA4-11D6-4A09-9848-4B284FF71011} = {606C1D8D-657D-4B3E-88D2-DA4314E06CB7}
+		{F86FDAA5-98A7-426A-85D1-DF82505393F9} = {CD0F0702-A5FA-4A74-A87F-30156D74B70A}
+		{AE07ED4B-DFB1-4537-85CC-46A3D41C2B42} = {CD0F0702-A5FA-4A74-A87F-30156D74B70A}
+		{A5458C00-F6B8-4503-B8C8-1125C882947F} = {CD0F0702-A5FA-4A74-A87F-30156D74B70A}
+		{23FCEFD7-6078-40AF-B726-12B2A5053C41} = {2EA624A5-2D35-4549-91B6-4D4D60BB474F}
+		{65E46DA8-D4C5-4766-B725-F6C6932785EB} = {2EA624A5-2D35-4549-91B6-4D4D60BB474F}
+		{64FF0F89-3ABD-4E7C-9C0A-51F6AD341DFD} = {2EA624A5-2D35-4549-91B6-4D4D60BB474F}
+		{302C8BD3-9793-4B18-9954-E63F12C1FCBC} = {2EA624A5-2D35-4549-91B6-4D4D60BB474F}
+		{9CBEB569-D429-499F-A387-9F76477BDABF} = {05ADFEF9-52A4-4A2E-B8FE-413D5D86BF68}
+		{F7EEB1D4-7190-4F77-A224-F92452FE75A0} = {05ADFEF9-52A4-4A2E-B8FE-413D5D86BF68}
+		{A7712EFE-D201-47E3-849C-3B8B5DC8E5EE} = {05ADFEF9-52A4-4A2E-B8FE-413D5D86BF68}
+		{A132874E-E386-4181-A37D-25B7F331D191} = {05ADFEF9-52A4-4A2E-B8FE-413D5D86BF68}
+		{D831EFE5-ED31-4170-B52D-88EA73D734AC} = {47B3BB1C-3A20-4F10-B68C-38ADD7B09CFA}
+		{6271B1B7-1D1F-40C4-9973-F53F648C7077} = {47B3BB1C-3A20-4F10-B68C-38ADD7B09CFA}
+		{9DE19D34-F0CB-4A51-A011-4996DA907F08} = {47B3BB1C-3A20-4F10-B68C-38ADD7B09CFA}
+		{13136405-7CED-4578-ABBA-8BF700D26D4B} = {F861D4CA-F623-4C7D-A1EE-F9406CE778DC}
+		{5130C49A-8566-46D8-87AE-50ED7CE5C889} = {F861D4CA-F623-4C7D-A1EE-F9406CE778DC}
+		{BC4ACB2A-23BC-4136-92B8-F8B9007C12A3} = {F861D4CA-F623-4C7D-A1EE-F9406CE778DC}
+		{17E988A5-B3CA-4076-9A5D-4CEC45F7205B} = {F861D4CA-F623-4C7D-A1EE-F9406CE778DC}
+		{8A8D15C8-43F3-4121-90C7-DCDBEDC032EB} = {B5398770-BCCA-4BC1-8152-D450864DB9E6}
+		{35912F7A-C05C-40EF-9F12-CED2A2160AE0} = {B5398770-BCCA-4BC1-8152-D450864DB9E6}
+		{494C4441-6E2C-45A7-AE6D-E064312E8D36} = {B5398770-BCCA-4BC1-8152-D450864DB9E6}
+		{B7B7B65F-A670-4D6D-85E3-7E249B55C7F8} = {B5398770-BCCA-4BC1-8152-D450864DB9E6}
+		{B8E7D887-1B6B-4598-9776-A118A28247C5} = {B5398770-BCCA-4BC1-8152-D450864DB9E6}
+		{036C35F3-123F-4678-9AC4-86718D024D05} = {3320ABA3-2F1E-4F68-A1F0-C827E7F331EF}
+		{DF547806-DF21-4380-A6B4-9963B2CAA2A4} = {3320ABA3-2F1E-4F68-A1F0-C827E7F331EF}
+		{F47B2B21-6834-4560-8271-95A131090615} = {3320ABA3-2F1E-4F68-A1F0-C827E7F331EF}
+		{688451AC-B679-40B3-A770-50EEEFD67B3C} = {3320ABA3-2F1E-4F68-A1F0-C827E7F331EF}
+		{D55E5FBB-71EC-4404-B46B-C867F3925060} = {3320ABA3-2F1E-4F68-A1F0-C827E7F331EF}
+		{C80FDE52-3CD5-48D0-B418-C6FC2D7A34ED} = {3320ABA3-2F1E-4F68-A1F0-C827E7F331EF}
+		{5A11D564-AD5E-459E-AC91-273F8EDA6AF3} = {92860A43-ACF0-4355-9F37-E92DCCF9CD69}
+		{A79FBF75-C593-48F6-A379-5BBCB8FB1DB2} = {92860A43-ACF0-4355-9F37-E92DCCF9CD69}
+		{31DCF2B0-2984-48C9-B693-21D3089AE774} = {92860A43-ACF0-4355-9F37-E92DCCF9CD69}
+		{DBA86385-2BBD-4451-BE4F-E52DAE86B270} = {92860A43-ACF0-4355-9F37-E92DCCF9CD69}
+		{AA5CB5CC-1733-44D2-97AD-3341FA09EC0E} = {92860A43-ACF0-4355-9F37-E92DCCF9CD69}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 36
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ssak32devrepo.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ConfigureRabbitMQ\\ConfigureRabbitMQ.csproj
+		SccProjectTopLevelParentUniqueName1 = RabbitMQWorkshop.sln
+		SccProjectName1 = ConfigureRabbitMQ
+		SccLocalPath1 = ConfigureRabbitMQ
+		SccProjectUniqueName2 = OneWayMessaging.Client\\OneWayMessaging.Client.csproj
+		SccProjectTopLevelParentUniqueName2 = RabbitMQWorkshop.sln
+		SccProjectName2 = OneWayMessaging.Client
+		SccLocalPath2 = OneWayMessaging.Client
+		SccProjectUniqueName3 = OneWayMessaging.Server\\OneWayMessaging.Server.csproj
+		SccProjectTopLevelParentUniqueName3 = RabbitMQWorkshop.sln
+		SccProjectName3 = OneWayMessaging.Server
+		SccLocalPath3 = OneWayMessaging.Server
+		SccProjectUniqueName4 = OneWayMessaging.ConfigureRabbitMQ\\OneWayMessaging.ConfigureRabbitMQ.csproj
+		SccProjectTopLevelParentUniqueName4 = RabbitMQWorkshop.sln
+		SccProjectName4 = OneWayMessaging.ConfigureRabbitMQ
+		SccLocalPath4 = OneWayMessaging.ConfigureRabbitMQ
+		SccProjectUniqueName5 = WorkerQueue.Client\\WorkerQueue.Client.csproj
+		SccProjectTopLevelParentUniqueName5 = RabbitMQWorkshop.sln
+		SccProjectName5 = WorkerQueue.Client
+		SccLocalPath5 = WorkerQueue.Client
+		SccProjectUniqueName6 = WorkerQueue.Server1\\WorkerQueue.Server1.csproj
+		SccProjectTopLevelParentUniqueName6 = RabbitMQWorkshop.sln
+		SccProjectName6 = WorkerQueue.Server1
+		SccLocalPath6 = WorkerQueue.Server1
+		SccProjectUniqueName7 = WorkerQueue.Server2\\WorkerQueue.Server2.csproj
+		SccProjectTopLevelParentUniqueName7 = RabbitMQWorkshop.sln
+		SccProjectName7 = WorkerQueue.Server2
+		SccLocalPath7 = WorkerQueue.Server2
+		SccProjectUniqueName8 = WorkerQueue.ConfigureRabbitMQ\\WorkerQueue.ConfigureRabbitMQ.csproj
+		SccProjectTopLevelParentUniqueName8 = RabbitMQWorkshop.sln
+		SccProjectName8 = WorkerQueue.ConfigureRabbitMQ
+		SccLocalPath8 = WorkerQueue.ConfigureRabbitMQ
+		SccProjectUniqueName9 = PubSub.Client\\PubSub.Client.csproj
+		SccProjectTopLevelParentUniqueName9 = RabbitMQWorkshop.sln
+		SccProjectName9 = PubSub.Client
+		SccLocalPath9 = PubSub.Client
+		SccProjectUniqueName10 = PubSub.Server1\\PubSub.Server1.csproj
+		SccProjectTopLevelParentUniqueName10 = RabbitMQWorkshop.sln
+		SccProjectName10 = PubSub.Server1
+		SccLocalPath10 = PubSub.Server1
+		SccProjectUniqueName11 = PubSub.Server2\\PubSub.Server2.csproj
+		SccProjectTopLevelParentUniqueName11 = RabbitMQWorkshop.sln
+		SccProjectName11 = PubSub.Server2
+		SccLocalPath11 = PubSub.Server2
+		SccProjectUniqueName12 = PubSub.ConfigureRabbitMQ\\PubSub.ConfigureRabbitMQ.csproj
+		SccProjectTopLevelParentUniqueName12 = RabbitMQWorkshop.sln
+		SccProjectName12 = PubSub.ConfigureRabbitMQ
+		SccLocalPath12 = PubSub.ConfigureRabbitMQ
+		SccProjectUniqueName13 = RPC.ConfigureRabbitMQ\\RPC.ConfigureRabbitMQ.csproj
+		SccProjectTopLevelParentUniqueName13 = RabbitMQWorkshop.sln
+		SccProjectName13 = RPC.ConfigureRabbitMQ
+		SccLocalPath13 = RPC.ConfigureRabbitMQ
+		SccProjectUniqueName14 = RPC.Client\\RPC.Client.csproj
+		SccProjectTopLevelParentUniqueName14 = RabbitMQWorkshop.sln
+		SccProjectName14 = RPC.Client
+		SccLocalPath14 = RPC.Client
+		SccProjectUniqueName15 = RPC.Server\\RPC.Server.csproj
+		SccProjectTopLevelParentUniqueName15 = RabbitMQWorkshop.sln
+		SccProjectName15 = RPC.Server
+		SccLocalPath15 = RPC.Server
+		SccProjectUniqueName16 = Routing.ConfigureRabbitMQ\\Routing.ConfigureRabbitMQ.csproj
+		SccProjectTopLevelParentUniqueName16 = RabbitMQWorkshop.sln
+		SccProjectName16 = Routing.ConfigureRabbitMQ
+		SccLocalPath16 = Routing.ConfigureRabbitMQ
+		SccProjectUniqueName17 = Routing.Client\\Routing.Client.csproj
+		SccProjectTopLevelParentUniqueName17 = RabbitMQWorkshop.sln
+		SccProjectName17 = Routing.Client
+		SccLocalPath17 = Routing.Client
+		SccProjectUniqueName18 = Routing.Server1\\Routing.Server1.csproj
+		SccProjectTopLevelParentUniqueName18 = RabbitMQWorkshop.sln
+		SccProjectName18 = Routing.Server1
+		SccLocalPath18 = Routing.Server1
+		SccProjectUniqueName19 = Routing.Server2\\Routing.Server2.csproj
+		SccProjectTopLevelParentUniqueName19 = RabbitMQWorkshop.sln
+		SccProjectName19 = Routing.Server2
+		SccLocalPath19 = Routing.Server2
+		SccProjectUniqueName20 = Topic.ConfigureRabbitMQ\\Topic.ConfigureRabbitMQ.csproj
+		SccProjectTopLevelParentUniqueName20 = RabbitMQWorkshop.sln
+		SccProjectName20 = Topic.ConfigureRabbitMQ
+		SccLocalPath20 = Topic.ConfigureRabbitMQ
+		SccProjectUniqueName21 = Topic.Server1\\Topic.Server1.csproj
+		SccProjectTopLevelParentUniqueName21 = RabbitMQWorkshop.sln
+		SccProjectName21 = Topic.Server1
+		SccLocalPath21 = Topic.Server1
+		SccProjectUniqueName22 = Topic.Server2\\Topic.Server2.csproj
+		SccProjectTopLevelParentUniqueName22 = RabbitMQWorkshop.sln
+		SccProjectName22 = Topic.Server2
+		SccLocalPath22 = Topic.Server2
+		SccProjectUniqueName23 = Topic.Server3\\Topic.Server3.csproj
+		SccProjectTopLevelParentUniqueName23 = RabbitMQWorkshop.sln
+		SccProjectName23 = Topic.Server3
+		SccLocalPath23 = Topic.Server3
+		SccProjectUniqueName24 = Topic.WinClient\\Topic.WinClient.csproj
+		SccProjectTopLevelParentUniqueName24 = RabbitMQWorkshop.sln
+		SccProjectName24 = Topic.WinClient
+		SccLocalPath24 = Topic.WinClient
+		SccProjectUniqueName25 = Headers.ConfigureRabbitMQ\\Headers.ConfigureRabbitMQ.csproj
+		SccProjectTopLevelParentUniqueName25 = RabbitMQWorkshop.sln
+		SccProjectName25 = Headers.ConfigureRabbitMQ
+		SccLocalPath25 = Headers.ConfigureRabbitMQ
+		SccProjectUniqueName26 = Headers.WinClient\\Headers.WinClient.csproj
+		SccProjectTopLevelParentUniqueName26 = RabbitMQWorkshop.sln
+		SccProjectName26 = Headers.WinClient
+		SccLocalPath26 = Headers.WinClient
+		SccProjectUniqueName27 = Headers.Server1\\Headers.Server1.csproj
+		SccProjectTopLevelParentUniqueName27 = RabbitMQWorkshop.sln
+		SccProjectName27 = Headers.Server1
+		SccLocalPath27 = Headers.Server1
+		SccProjectUniqueName28 = Headers.Server2\\Headers.Server2.csproj
+		SccProjectTopLevelParentUniqueName28 = RabbitMQWorkshop.sln
+		SccProjectName28 = Headers.Server2
+		SccLocalPath28 = Headers.Server2
+		SccProjectUniqueName29 = Headers.Server3\\Headers.Server3.csproj
+		SccProjectTopLevelParentUniqueName29 = RabbitMQWorkshop.sln
+		SccProjectName29 = Headers.Server3
+		SccLocalPath29 = Headers.Server3
+		SccProjectUniqueName30 = Headers.Server4\\Headers.Server4.csproj
+		SccProjectTopLevelParentUniqueName30 = RabbitMQWorkshop.sln
+		SccProjectName30 = Headers.Server4
+		SccLocalPath30 = Headers.Server4
+		SccProjectUniqueName31 = ScatterGather.Client\\ScatterGather.Client.csproj
+		SccProjectTopLevelParentUniqueName31 = RabbitMQWorkshop.sln
+		SccProjectName31 = ScatterGather.Client
+		SccLocalPath31 = ScatterGather.Client
+		SccProjectUniqueName32 = ScatterGather.ConfigureRabbitMQ\\ScatterGather.ConfigureRabbitMQ.csproj
+		SccProjectTopLevelParentUniqueName32 = RabbitMQWorkshop.sln
+		SccProjectName32 = ScatterGather.ConfigureRabbitMQ
+		SccLocalPath32 = ScatterGather.ConfigureRabbitMQ
+		SccProjectUniqueName33 = ScatterGather.Server1\\ScatterGather.Server1.csproj
+		SccProjectTopLevelParentUniqueName33 = RabbitMQWorkshop.sln
+		SccProjectName33 = ScatterGather.Server1
+		SccLocalPath33 = ScatterGather.Server1
+		SccProjectUniqueName34 = ScatterGather.Server2\\ScatterGather.Server2.csproj
+		SccProjectTopLevelParentUniqueName34 = RabbitMQWorkshop.sln
+		SccProjectName34 = ScatterGather.Server2
+		SccLocalPath34 = ScatterGather.Server2
+		SccProjectUniqueName35 = ScatterGather.Server3\\ScatterGather.Server3.csproj
+		SccProjectTopLevelParentUniqueName35 = RabbitMQWorkshop.sln
+		SccProjectName35 = ScatterGather.Server3
+		SccLocalPath35 = ScatterGather.Server3
+	EndGlobalSection
+EndGlobal

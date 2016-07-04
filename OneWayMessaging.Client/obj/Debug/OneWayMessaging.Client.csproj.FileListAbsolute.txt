@@ -1,0 +1,8 @@
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\OneWayMessaging.Client\bin\Debug\OneWayMessaging.Client.exe.config
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\OneWayMessaging.Client\bin\Debug\OneWayMessaging.Client.exe
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\OneWayMessaging.Client\bin\Debug\OneWayMessaging.Client.pdb
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\OneWayMessaging.Client\bin\Debug\RabbitMQ.Client.dll
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\OneWayMessaging.Client\bin\Debug\RabbitMQ.Client.xml
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\OneWayMessaging.Client\obj\Debug\OneWayMessaging.Client.csprojResolveAssemblyReference.cache
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\OneWayMessaging.Client\obj\Debug\OneWayMessaging.Client.exe
+D:\MyDevelopementRepository\Tutorials\C#\MessageBrokers\RabbitMQ\Workshop\RabbitMQWorkshop\OneWayMessaging.Client\obj\Debug\OneWayMessaging.Client.pdb
